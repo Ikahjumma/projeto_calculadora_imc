@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c2f9f4;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 70%;
+    margin:32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto-inicial{
+    margin: 16px 0;
+    text-align: left;
+}
+.calculo{
+    display: flex;
+    
+}
+.calculo-imc{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:16px;
+    width: 150px;
+}
+h1{
+    color: #0d00ff;
+    font-size: 2.2rem;
+}
+h2{
+    background-color: #0d00ff;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    margin: 24px 0;
+}
+
+section > table{
+    width: 70%;
+}
+td{
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+}
+th{
+    border-bottom: 2px solid #000;
+    color: #0d00ff;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+#btn_altura, #btn_Limpar{
+    padding: 8px;
+    border-radius: 16px;
+    color: #fff;
+    width:90px;
+
+}
+#btn_altura{
+    background-color: #0d00ff;
+ 
+}
+#btn_Limpar{
+    background-color: #7d7b3d;
+}
+
+.p-resposta{
+    background-color: #fff;
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.classificacao-obsedidade{
+    background-color: #a6a4d2;
+    
+}
+label{
+    font-size: .6rem;
+    margin-bottom: 8px;
+}
+input{
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    
+}
